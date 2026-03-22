@@ -36,8 +36,7 @@ const FilterBar = () => {
             <ToggleGroupItem
               key={difficulty}
               value={difficulty}
-              aria-label={`Select ${difficulty}`}
-              className="rounded-full px-4 py-1 text-sm border border-zinc-700 text-zinc-400 bg-transparent hover:border-zinc-500 hover:text-zinc-300 data-[state=on]:bg-emerald-500 data-[state=on]:text-black data-[state=on]:border-emerald-500 transition-colors"
+              className="rounded-full px-4 py-1 text-sm border border-zinc-700 text-zinc-400 "
             >
               {difficulty}
             </ToggleGroupItem>
@@ -60,8 +59,7 @@ const FilterBar = () => {
             <ToggleGroupItem
               key={techstack}
               value={techstack}
-              aria-label={`Select ${techstack}`}
-              className="rounded-full px-4 py-1 text-sm border border-zinc-700 text-zinc-400 bg-transparent hover:border-zinc-500 hover:text-zinc-300 data-[state=on]:bg-emerald-500 data-[state=on]:text-black data-[state=on]:border-emerald-500 transition-colors"
+              className="rounded-full px-4 py-1 text-sm border border-zinc-700 text-zinc-400 "
             >
               {techstack}
             </ToggleGroupItem>
