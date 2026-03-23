@@ -5,7 +5,7 @@ const ProblemList = () => {
     <ProblemCard
       problem={{
         id: "1",
-        title: "問題1",
+        title: "API レスポンスの型定義",
         status: "未着手",
         difficulty: "簡単",
         techStack: "TypeScript",

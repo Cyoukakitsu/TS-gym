@@ -5,10 +5,10 @@ import { useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
 type Difficulty = "全部" | "入門" | "実践" | "実務";
-type TechStack = "全部" | "Pure TS" | "React" | "Next.js";
+type TechStack = "全部" | "Pure TS" | "React";
 
 const DIFFICULTY_OPTIONS: Difficulty[] = ["全部", "入門", "実践", "実務"];
-const TECHSTACK_OPTIONS: TechStack[] = ["全部", "Pure TS", "React", "Next.js"];
+const TECHSTACK_OPTIONS: TechStack[] = ["全部", "Pure TS", "React"];
 
 const FilterBar = () => {
   // 状态改为数组，初始值为包含 "全部" 的数组
